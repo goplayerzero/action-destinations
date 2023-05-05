@@ -4,7 +4,7 @@ import destination from '../../index'
 import nock from 'nock'
 
 const testDestination = createTestIntegration(destination)
-const actionSlug = 'trackEvent'
+const actionSlug = 'forwardEvent'
 const destinationSlug = 'PlayerzeroCloud'
 const seedName = `${destinationSlug}#${actionSlug}`
 
